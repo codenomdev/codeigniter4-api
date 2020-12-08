@@ -24,7 +24,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.2",
-        "firebase/jwt-php": ">=5.2.0",
+        "firebase/jwt-php": ">=v5.2.0",
         "myth/auth": "dev-develop"
     },
     "require-dev": {
