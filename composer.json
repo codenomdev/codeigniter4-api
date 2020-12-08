@@ -21,6 +21,7 @@
             "url": "https://github.com/codenomdev/codeigniter4-api"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.2",
         "firebase/jwt-php": ">=5.2.0",
