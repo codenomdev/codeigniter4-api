@@ -1,0 +1,38 @@
+{
+    "name": "codenom/api",
+    "description": "CodeIgniter 4 API Library",
+    "keywords": [
+        "JWT CodeIgniter 4",
+        "CodeIgniter 4 API"
+    ],
+    "homepage": "https://github.com/codenomdev/codeigniter4-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilham Falachul Adha",
+            "email": "codenomdev@gmail.com",
+            "homepage": "http://codenom.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/codenomdev/codeigniter4-api"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "firebase/jwt-php": ">=5.2.0",
+        "myth/auth": "dev-develop"
+    },
+    "require-dev": {
+        "codeigniter4/codeigniter4": "dev-develop",
+        "codeigniter4/codeigniter4-standard": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codenom\\Api": "src/"
+        }
+    }
+}
